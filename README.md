@@ -1,9 +1,18 @@
 # Project: Hangman
 
-#Purpose
+Purpose of project:
 
-- To recreate Hangman.
-- To reinforce learnings of JAVA.
+- To create a simple working version of Hangman.
+- To improve and reinforce my learning and understanding of Java.
+
+How to play:
+
+- User will be prompted to input a single letter or a word.
+  - If input is a letter: if it is in the answer, the console will reveal the position/s of the letter. Also, a part of the hangman is revealed.
+  - If input is a word:
+    - If correct, user wins the game and ends the game.
+    - If incorrect, no letters are revealed and a part of the hangman is revealed.
+- Users will have 7 attempts to get the word. Failure to do so will cause the console to let the user know that they have lost and the word is revealed.
 
 ## MVP
 
@@ -59,10 +68,10 @@ ____________
 ___|___
 ```
 
-after the third incorrect letter is entered.
+after the third incorrect letter is entered. -[x]
 
-- the user should be able to guess wrong 7 times before they loose
-- they should be given the option to guess a letter or the whole word
+- the user should be able to guess wrong 7 times before they loose - [x]
+- they should be given the option to guess a letter or the whole word - [x]
 
 ## Bonuses
 
@@ -84,4 +93,13 @@ after the third incorrect letter is entered.
 
 Tech stack used:
 
-- Java.
+- Java
+- Github
+
+Notes:
+
+- Created 3 classes.
+- One class will handle the user's input.
+- One class will handle reading the wordlist JSON file.
+- One class will handle the hangman output onto the console.
+  - This was done to keep the code more maintanable and readable.

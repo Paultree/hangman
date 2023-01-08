@@ -24,9 +24,9 @@ public class Main {
 			}
 			
 			Scanner guessObj = new Scanner(System.in);
-			System.out.println("Enter letter:");
+			System.out.println("Enter a letter or word:");
 			String userGuess = guessObj.nextLine().toLowerCase();
-			System.out.println("You guessed the letter: " + userGuess);
+			System.out.println("You guessed: " + userGuess);
 			rounds--;
 			
 			if (userGuess.length() > 1 && !userGuess.equals(word)) {
