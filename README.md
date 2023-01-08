@@ -7,7 +7,7 @@
 
 ## MVP
 
-- Recreate a version of the game Hangman to be played in a Java console application.
+- Recreate a version of the game Hangman to be played in a Java console application. -[x]
 - The game should randomly select a word from the provided list - [x]
 - When the word is selected, a row of underscores representing letters in the word should be printed to the console, for example:
 
@@ -81,3 +81,7 @@ after the third incorrect letter is entered.
 - [Java ArrayLists](https://www.javatpoint.com/java-arraylist)
 - [Java If Statement](https://www.javatpoint.com/java-if-else)
 - [Java Loops](https://www.javatpoint.com/java-for-loop)
+
+Tech stack used:
+
+- Java.
