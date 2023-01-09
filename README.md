@@ -7,12 +7,12 @@ Purpose of project:
 
 How to play:
 
-- User will be prompted to input a single letter or a word.
-  - If input is a letter: if it is in the answer, the console will reveal the position/s of the letter. Also, a part of the hangman is revealed.
+- User will be prompted to input a single letter or a word. - [x]
+  - If input is a letter: if it is in the answer, the console will reveal the position/s of the letter. Also, a part of the hangman is revealed. - [x]
   - If input is a word:
-    - If correct, user wins the game and ends the game.
-    - If incorrect, no letters are revealed and a part of the hangman is revealed.
-- Users will have 7 attempts to get the word. Failure to do so will cause the console to let the user know that they have lost and the word is revealed.
+    - If correct, user wins the game and ends the game. - [x]
+    - If incorrect, no letters are revealed and a part of the hangman is revealed. - [x]
+- Users will have 7 attempts to get the word. Failure to do so will cause the console to let the user know that they have lost and the word is revealed. - [x]
 
 ## MVP
 
@@ -76,8 +76,8 @@ after the third incorrect letter is entered. -[x]
 ## Bonuses
 
 - Read the word list directly from the file when the application starts -[x]
-- Create a history file that keeps track of user wins/losses and how many letters they guessed it in
-- Give user the option to verse the computer - the computer should select a letter, if the letter selected is in the word, it should be revealed, just like with user guesses. The computer should also try to guess the whole word.
+- Create a history file that keeps track of user wins/losses and how many letters they guessed it in - []
+- Give user the option to verse the computer - the computer should select a letter, if the letter selected is in the word, it should be revealed, just like with user guesses. The computer should also try to guess the whole word. - []
 
 ## Useful resources:
 
