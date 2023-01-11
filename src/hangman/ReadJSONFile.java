@@ -12,12 +12,6 @@ import org.json.simple.parser.ParseException;
 
 public class ReadJSONFile {
 	
-
-	public static void main(String[] args) {
-	
-	
-
-}
 	
 	public static String generateWord() {
 		String chosenWord = null;
