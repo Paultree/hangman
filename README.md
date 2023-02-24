@@ -4,8 +4,13 @@ Image
 
 Setup:
 
-- Java Eclipse 4.25.0
-- Github
+- Eclipse IDE Ver. 4.25.0
+- Clone repo from github
+- Open Eclipse
+- Click File > Open Projects From file system > directory > navigate to repo directory > finish
+- Right click on project in package explorer
+- Click run
+- play game in Eclipse console.
 
 Purpose of project:
 
