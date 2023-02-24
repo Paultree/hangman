@@ -32,9 +32,6 @@ public class GameOutput {
 		System.out.println("The word is:" + str);
 	}
 	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
+	
 
 }

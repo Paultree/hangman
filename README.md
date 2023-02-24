@@ -1,5 +1,12 @@
 # Project: Hangman
 
+Image
+
+Setup:
+
+- Java Eclipse 4.25.0
+- Github
+
 Purpose of project:
 
 - To create a simple working version of Hangman.
@@ -91,15 +98,22 @@ after the third incorrect letter is entered. -[x]
 - [Java If Statement](https://www.javatpoint.com/java-if-else)
 - [Java Loops](https://www.javatpoint.com/java-for-loop)
 
-Tech stack used:
-
-- Java
-- Github
-
-Notes:
+Approach:
 
 - Created 3 classes.
 - One class will handle the user's input.
 - One class will handle reading the wordlist JSON file.
 - One class will handle the hangman output onto the console.
   - This was done to keep the code more maintanable and readable.
+
+Reflection:
+
+Future Goals
+
+Further reading
+
+Stay in touch
+
+Licence
+
+Contribution
